@@ -26,7 +26,7 @@
        $(this).html("<td colspan='9' align='center'><img src='loading.gif'></td>");
        $.ajax({
           type: "post",
-          url: "postjax2.php",
+          url: "proxy.php",
           data: dataString,
           cache: false,
           success: function(data){
