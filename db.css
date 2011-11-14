@@ -1,0 +1,29 @@
+table {	border:1px solid #000;
+ 		border-collapse:collapse;
+ 		font-family:arial,sans-serif;
+ 		font-size:80%; }
+ 		
+td,th{   	border:1px solid #000;
+   		border-collapse:collapse;
+   		padding:5px;}  
+   
+caption{	background:#ccc;
+  		font-size:140%;
+  		border:1px solid #000;
+  		border-bottom:none;
+  		padding:5px;
+  		text-align:left;}
+  
+thead th{	background:#9cf;
+  			text-align:left; }
+
+tbody th{	text-align:left;
+  			background:#69c;}
+
+tfoot td{		text-align:right;
+    			font-weight:bold;
+    			background:#369; }
+
+tbody td{	background:#999; }
+
+tbody tr.odd td{background:#ccc;}
