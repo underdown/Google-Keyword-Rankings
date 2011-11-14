@@ -1,4 +1,4 @@
-<?
+<?php
 
 $db = mysql_connect('localhost', 'dbname', 'password') or die('Could not connect.');
 if(!$db) 
